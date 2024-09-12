@@ -1,9 +1,9 @@
 # Week 2
 
 ## Assignment 1
-`select country.name as 'country name', airport.name as 'airport name' from country, airport` <br>
-`where country.iso_country = airport.iso_country` <br>
-`and country.name = 'Iceland';`
+`SELECT country.name AS 'country name', airport.name AS 'airport name' from country, airport` <br>
+`WHERE country.iso_country = airport.iso_country` <br>
+`AND country.name = 'Iceland';`
 
 ![screenshot]()
 
