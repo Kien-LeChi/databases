@@ -23,7 +23,7 @@
 `airport.name AS 'airport name'` <br>
 `FROM country, airport` <br>
 `WHERE country.iso_country = airport.iso_country;` <br>
-`AND country.continent = 'AN'` <br>
+`AND country.continent = 'AN';` <br>
 
 ![W3E3_3.png](W3E3_3.png)
 

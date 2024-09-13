@@ -46,6 +46,8 @@
 ![W3_E2_9.png](W3_E2_9.png)
 
 ## Assignment 10
-`SELECT screen_name, co2_budget, co2_consumed, @co2_left := co2_budget - co2_consumed as co2_left from game where screen_name = "Ilkka";`
+`SELECT screen_name, co2_budget, co2_consumed,` <br>
+`@co2_left := co2_budget - co2_consumed AS co2_left` <br> 
+`FROM game WHERE screen_name = "Ilkka";` <br>
 
 ![W3_E2_10.png](W3_E2_10.png)
