@@ -1,4 +1,4 @@
-# Week 3
+# Exercise 3
 
 ## Assignment 1
 ```sql

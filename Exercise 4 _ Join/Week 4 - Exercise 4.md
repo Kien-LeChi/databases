@@ -1,4 +1,4 @@
-# Week 4
+# Exercise 4
 
 ## Assignment 1
 
