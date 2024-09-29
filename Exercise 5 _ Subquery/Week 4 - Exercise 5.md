@@ -15,7 +15,7 @@ WHERE country.iso_country in (
 ## Assignment 2
 ```sql
 SELECT airport.name FROM airport
-WHERE airport.iso_country in (
+WHERE airport.iso_country IN (
     SELECT country.iso_country FROM country
     WHERE country.name = 'Monaco'
     );
