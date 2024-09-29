@@ -78,14 +78,9 @@ WHERE goal_reached.game_id in (
 ![W5E6_9.png](W5E6_9.png)
 ## Assignment 10
 ```sql
-SET @a1 = (SELECT max(latitude_deg) FROM airport);
-SET @a2 = -(SELECT min(latitude_deg) FROM airport);
-SELECT IF(@a1 > @a2,
-  (SELECT airport.name FROM airport
-  WHERE latitude_deg = @a1),
-  
-  (SELECT airport.name FROM airport
-  WHERE latitude_deg = -@a2)
-) as name;
+SELECT name FROM airport
+WHERE latitude_deg IN (
+    SELECT min(latitude_deg) FROM airport
+    );
 ```
 ![W5E6_10.png](W5E6_10.png)
